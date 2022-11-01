@@ -10,13 +10,22 @@ repositories {
 }
 
 dependencies {
+    //TestNG
+    testImplementation 'org.testng:testng:7.6.1'
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation 'org.seleniumhq.selenium:selenium-java:4.5.0'
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     implementation 'io.github.bonigarcia:webdrivermanager:5.3.0'
+    //dummy Text
+    testImplementation 'com.thedeanda:lorem:2.1'
 
-    // https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation 'org.testng:testng:7.6.1'
+    //POI
+    testImplementation 'org.apache.poi:poi:5.2.2'
+    testImplementation 'org.apache.poi:poi-ooxml:5.2.2'
+
+
+
+
 
 
 
